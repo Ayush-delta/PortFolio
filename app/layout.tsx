@@ -6,13 +6,18 @@ import FixedRunner from "../_components/fixed-runner";
 import MagneticCursor from "../_components/magnetic-cursor";
 
 export const metadata: Metadata = {
-  title: "Your Name | Software Engineer",
-  description: "Portfolio of Your Name — building premium digital experiences.",
+  title: "Ayush Ratna | Software Engineer",
+  description: "Portfolio of Ayush Ratna — building premium digital experiences.",
+  icons: {
+    icon: "/favicon.png",
+    shortcut: "/favicon.png",
+    apple: "/favicon.png",
+  },
   openGraph: {
-    title: "Your Name | Software Engineer",
-    description: "Portfolio of Your Name — building premium digital experiences.",
+    title: "Ayush Ratna | Software Engineer",
+    description: "Portfolio of Ayush Ratna — building premium digital experiences.",
     url: "https://yoursite.com",
-    siteName: "Your Name Portfolio",
+    siteName: "Ayush Ratna Portfolio",
     type: "website",
   },
 };
