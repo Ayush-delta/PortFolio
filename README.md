@@ -1,6 +1,6 @@
 # Ayush Ratna • Creative Developer Portfolio
 
-A premium, highly interactive portfolio built with **Next.js 14 (App Router)**, **TypeScript**, and a custom-crafted CSS design system. Designed with Awwwards-grade kinetic layouts, responsive micro-animations, physical hover constraints, and a global difference-blending magnifying cursor. Inspired by the sleek aesthetics of [iayush.com](https://www.iayush.com/).
+A premium, highly interactive portfolio built with **Next.js 14 (App Router)**, **TypeScript**, and a custom-crafted CSS design system. Designed with Awwwards-grade kinetic layouts, responsive micro-animations, physical hover constraints, and a global difference-blending magnifying cursor.
 
 ---
 
