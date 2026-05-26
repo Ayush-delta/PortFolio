@@ -691,7 +691,7 @@ ul, ol { list-style: none; }
   .hero-name { font-size: clamp(2.8rem, 12vw, 5rem); }
 }
 
-/* ── Custom Cursor ──────────────────────────────────────────────────────────── */
+/*Custom Cursor*/
 @media (any-pointer: fine) {
   html, body, a, button, input, textarea, select {
     cursor: none !important;
@@ -714,7 +714,7 @@ ul, ol { list-style: none; }
   border: 1.5px solid var(--accent);
   border-radius: 50%;
   pointer-events: none;
-  z-index: 100000; /* extremely high to overlay all components */
+  z-index: 100000;
   transform: translate3d(0, 0, 0);
   transition: width 0.25s cubic-bezier(0.25, 1, 0.5, 1), 
               height 0.25s cubic-bezier(0.25, 1, 0.5, 1), 
@@ -737,7 +737,7 @@ ul, ol { list-style: none; }
   background-color: var(--accent);
   border-radius: 50%;
   pointer-events: none;
-  z-index: 100001; /* extremely high to overlay all components */
+  z-index: 100001; 
   transform: translate3d(0, 0, 0);
 }
 
