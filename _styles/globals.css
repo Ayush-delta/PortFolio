@@ -627,6 +627,7 @@ ul, ol { list-style: none; }
   display: flex; align-items: center; gap: 10px;
   font-size: 18px; color: var(--text); font-weight: 400;
   letter-spacing: -0.01em;
+  white-space: nowrap;
 }
 .status-dot {
   width: 9px; height: 9px; border-radius: 50%;
