@@ -128,21 +128,23 @@ ul, ol { list-style: none; }
 .hero-container {
   display: grid;
   grid-template-columns: 1fr auto;
-  align-items: end;
-  gap: 48px;
-  padding-top: 160px;
+  align-items: center;
+  gap: 64px;
+  padding-top: 120px;
   padding-bottom: 80px;
   min-height: 100svh;
 }
 .hero-left {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: center;
 }
 .hero-right {
   display: flex;
-  align-items: flex-end;
-  padding-bottom: 16px;
+  align-items: center;
+  justify-content: flex-end;
+  padding-bottom: 0;
+  align-self: center;
 }
 .hero-name {
   font-family: var(--font-display);
@@ -599,10 +601,10 @@ ul, ol { list-style: none; }
   display: inline-flex;
   flex-direction: column;
   gap: 0;
-  background: var(--bg);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 20px;
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  padding: 20px 0;
   min-width: 260px;
 }
 .status-card-icon {
@@ -610,25 +612,26 @@ ul, ol { list-style: none; }
   border-radius: var(--radius-sm);
   background: #0a0a0a;
   display: flex; align-items: center; justify-content: center;
-  margin-bottom: 20px;
+  margin-bottom: 24px;
 }
 .status-row {
-  border-top: 1px solid var(--border);
-  padding: 14px 0;
+  border-top: none;
+  padding: 18px 0;
 }
 .status-label {
-  font-size: 11px; letter-spacing: 0.1em;
+  font-size: 11px; letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: var(--text-muted); margin-bottom: 6px; font-weight: 500;
+  color: var(--text-muted); margin-bottom: 8px; font-weight: 600;
 }
 .status-value {
-  display: flex; align-items: center; gap: 8px;
-  font-size: 15px; color: var(--text);
+  display: flex; align-items: center; gap: 10px;
+  font-size: 18px; color: var(--text); font-weight: 400;
+  letter-spacing: -0.01em;
 }
 .status-dot {
-  width: 8px; height: 8px; border-radius: 50%;
+  width: 9px; height: 9px; border-radius: 50%;
   background: #22c55e; flex-shrink: 0;
-  box-shadow: 0 0 0 3px rgba(34,197,94,0.15);
+  box-shadow: 0 0 0 3px rgba(34,197,94,0.18);
 }
 
 /* Tablet & Laptop Spacing Tweaks */
@@ -677,10 +680,13 @@ ul, ol { list-style: none; }
   .hero-container {
     grid-template-columns: 1fr;
     align-items: flex-start;
-    padding-top: 120px;
+    padding-top: 100px;
+    padding-bottom: 60px;
+    gap: 40px;
   }
   .hero-right {
     justify-content: flex-start;
+    align-self: auto;
   }
   .hero-name { font-size: clamp(2.8rem, 12vw, 5rem); }
 }
