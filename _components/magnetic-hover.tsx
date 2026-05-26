@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useRef } from "react";
+import React from "react";
 import gsap from "gsap";
 
 interface MagneticProps {
@@ -9,7 +9,7 @@ interface MagneticProps {
 }
 
 export default function Magnetic({ children, strength = 0.35 }: MagneticProps) {
-  const containerRef = useRef<HTMLDivElement>(null);
+  const containerRef = React.useRef<HTMLDivElement>(null);
 
   const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
     const container = containerRef.current;
@@ -60,9 +60,10 @@ export default function Magnetic({ children, strength = 0.35 }: MagneticProps) {
       className="magnetic-wrapper"
       style={{ display: "inline-block" }}
     >
-      {React.cloneElement(child, {
-        className: `${child.props.className || ""} magnetic-target`.trim(),
+      {React.cloneElement(child as React.ReactElement<React.HTMLAttributes<HTMLElement>>, {
+        className: `${(child.props as React.HTMLAttributes<HTMLElement>).className || ""} magnetic-target`.trim(),
       })}
     </div>
   );
 }
+
