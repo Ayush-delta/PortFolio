@@ -1,5 +1,12 @@
 const EXPERIENCE = [
   {
+    role: "Product Development Intern",
+    company: "DigiHut Global",
+    period: "May 2026 – Present",
+    description:
+      "Developing cross-platform Windows and Linux endpoint agents supporting 10+ native log sources, normalizing security events into a unified schema for centralized ingestion and SOC monitoring. Automating endpoint deployment through Cron/PM2 scheduling and a .NET 8 WPF management console, streamlining setup across Windows and Linux environments.",
+  },
+  {
     role: "Ethical Hacking & Penetration Testing Intern",
     company: "CDAC, Noida",
     period: "July 2025 – August 2025",
