@@ -125,18 +125,4 @@ Open [http://localhost:3000](http://localhost:3000) in your browser. The custom 
 * **Testimonials / Quotes**: Modify or add quotes inside `TESTIMONIALS` in [testimonials.tsx](file:///c:/Projects/Portfolio/_components/sections/testimonials.tsx).
 * **Color Schemes / Variable Tokens**: Adjust electric lime variables (`--accent`), card colors, and border widths inside the `:root` variables block at the top of [globals.css](file:///c:/Projects/Portfolio/_styles/globals.css).
 
----
-
-## 📦 Deployment (Vercel)
-
-1. Push your latest code changes to your GitHub branch:
-   ```bash
-   git add .
-   git commit -m "docs: complete readme custom asset and responsive guides"
-   git push origin main
-   ```
-2. Open your [Vercel Dashboard](https://vercel.com/) and import the repository.
-3. Add environment variables for contact form integration (Optional):
-   * `RESEND_API_KEY`: Your transactional Resend API key.
-   * `CONTACT_EMAIL`: The recipient inbox where you'd like to receive contact messages.
-4. Click **Deploy**. Vercel will bundle static page caches, optimize images, and host your creative developer portfolio globally!
+--- 
