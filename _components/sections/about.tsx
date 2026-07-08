@@ -22,7 +22,7 @@ export default function AboutSection() {
               <span className="stat-label">Computer Science & Engineering</span>
             </div>
             <div className="stat">
-              <span className="stat-number">6.82 / 10</span>
+              <span className="stat-number">6.88 / 10</span>
               <span className="stat-label">CGPA</span>
             </div>
           </div>

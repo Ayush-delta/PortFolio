@@ -1,17 +1,41 @@
-const EXPERIENCE = [
+import { ReactNode } from "react";
+
+interface ExperienceItem {
+  role: string;
+  company: string;
+  period: string;
+  description: ReactNode[];
+}
+
+const EXPERIENCE: ExperienceItem[] = [
   {
     role: "Product Development Intern",
     company: "DigiHut Global",
-    period: "May 2026 – Present",
-    description:
-      "Developing cross-platform Windows and Linux endpoint agents supporting 10+ native log sources, normalizing security events into a unified schema for centralized ingestion and SOC monitoring. Automating endpoint deployment through Cron/PM2 scheduling and a .NET 8 WPF management console, streamlining setup across Windows and Linux environments.",
+    period: "June 2026 – Present",
+    description: [
+      <span key="1">
+        Developing <strong>SecureDIGI</strong>, a cross-platform <strong>SIEM</strong> platform by building <strong>Windows</strong> and <strong>Linux</strong> endpoint agents for centralized security log collection, normalization, and ingestion.
+      </span>,
+      <span key="2">
+        Designed a scalable security event pipeline with <strong>server-side deduplication</strong>, <strong>event aggregation</strong>, <strong>MITRE ATT&CK</strong> enrichment, and <strong>AI-assisted threat intelligence</strong>, reducing alert noise by over <strong>90%</strong>.
+      </span>,
+      <span key="3">
+        Architected a modular <strong>AI Security Event Intelligence</strong> pipeline using <strong>Gemini 2.5</strong>, enabling automated event summarization, threat assessment, and remediation recommendations for <strong>SOC analysts</strong>.
+      </span>,
+    ],
   },
   {
     role: "Ethical Hacking & Penetration Testing Intern",
     company: "CDAC, Noida",
     period: "July 2025 – August 2025",
-    description:
-      "Built a Python malware emulation tool processing 10,000+ threat indicators in isolated labs, cutting vulnerability mapping time by 40%. Secured key derivation pipelines using Fernet encryption and SHA-256 hashing, achieving 100% cryptographic integrity.",
+    description: [
+      <span key="1">
+        Built a Python malware emulation tool processing 10,000+ threat indicators in isolated labs, cutting vulnerability mapping time by 40%.
+      </span>,
+      <span key="2">
+        Secured key derivation pipelines using Fernet encryption and SHA-256 hashing, achieving 100% cryptographic integrity.
+      </span>,
+    ],
   },
 ];
 
@@ -30,7 +54,13 @@ export default function ExperienceSection() {
                   <span className="timeline-company">{item.company}</span>
                   <time className="timeline-period">{item.period}</time>
                 </div>
-                <p className="timeline-desc">{item.description}</p>
+                <ul className="timeline-points">
+                  {item.description.map((point, index) => (
+                    <li key={index} className="timeline-point">
+                      {point}
+                    </li>
+                  ))}
+                </ul>
               </div>
             </li>
           ))}

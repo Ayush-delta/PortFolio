@@ -391,7 +391,26 @@ ul, ol { list-style: none; }
 .timeline-company::before { content: "@"; margin-right: 4px; }
 .timeline-company { color: var(--accent); font-size: 14px; }
 .timeline-period { font-size: 13px; color: var(--text-muted); margin-left: auto; }
-.timeline-desc { color: var(--text-muted); font-size: 15px; }
+.timeline-points {
+  margin-top: 12px;
+  padding-left: 18px;
+  list-style-type: disc;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.timeline-point {
+  color: var(--text-muted);
+  font-size: 15px;
+  line-height: 1.6;
+}
+.timeline-point strong {
+  color: var(--text);
+  font-weight: 600;
+}
+.timeline-point::marker {
+  color: var(--accent);
+}
 
 /*Testimonials*/
 .testimonials-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; }
