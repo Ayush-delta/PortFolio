@@ -36,7 +36,7 @@ export default function Header() {
           ))}
           <Magnetic strength={0.25}>
             <a
-              href="https://drive.google.com/file/d/14MKoY6J2GG_zE2wJrKrWWUONCBTS6I48/view?usp=sharing"
+              href="https://drive.google.com/file/d/1VwyMb-NOnPVuqjQMyBs0O6sNSJOlYVvO/view?usp=sharing"
               className="btn-resume"
               target="_blank"
               rel="noopener noreferrer"
