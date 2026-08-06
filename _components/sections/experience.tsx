@@ -14,13 +14,16 @@ const EXPERIENCE: ExperienceItem[] = [
     period: "June 2026 – Present",
     description: [
       <span key="1">
-        Developing <strong>SecureDIGI</strong>, a cross-platform <strong>SIEM</strong> platform by building <strong>Windows</strong> and <strong>Linux</strong> endpoint agents for centralized security log collection, normalization, and ingestion.
+        Built <strong>SecureDIGI</strong>, a cross-platform <strong>SIEM</strong> platform with <strong>Windows</strong> and <strong>Linux</strong> endpoint agents that collect, normalize, and forward security logs to a centralized backend.
       </span>,
       <span key="2">
-        Designed a scalable security event pipeline with <strong>server-side deduplication</strong>, <strong>event aggregation</strong>, <strong>MITRE ATT&CK</strong> enrichment, and <strong>AI-assisted threat intelligence</strong>, reducing alert noise by over <strong>90%</strong>.
+        Designed a scalable event processing pipeline with <strong>deduplication</strong>, <strong>event aggregation</strong>, <strong>MITRE ATT&CK mapping</strong>, and <strong>AI-assisted threat analysis</strong>, reducing duplicate security alerts by over <strong>90%</strong>.
       </span>,
       <span key="3">
-        Architected a modular <strong>AI Security Event Intelligence</strong> pipeline using <strong>Gemini 2.5</strong>, enabling automated event summarization, threat assessment, and remediation recommendations for <strong>SOC analysts</strong>.
+        Integrated <strong>Gemini 2.5</strong> to automate event summarization, threat assessment, and remediation recommendations for <strong>SOC analysts</strong>.
+      </span>,
+      <span key="4">
+        Developed an <strong>Active Directory Identity Intelligence</strong> engine that ingests users, groups, organizational units, devices, and authentication events to provide real-time identity posture and privilege risk analysis.
       </span>,
     ],
   },
