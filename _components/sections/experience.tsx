@@ -14,17 +14,17 @@ const EXPERIENCE: ExperienceItem[] = [
     period: "June 2026 – Present",
     description: [
       <span key="1">
-        Built <strong>SecureDIGI</strong>, a cross-platform <strong>SIEM</strong> platform with <strong>Windows</strong> and <strong>Linux</strong> endpoint agents that collect, normalize, and forward security logs to a centralized backend.
+        Built <strong>SecureDIGI</strong>, a cross-platform <strong>SIEM</strong> platform supporting <strong>Windows</strong> and <strong>Linux</strong> security log ingestion from <strong>10+ native log sources</strong>, with event normalization and secure data transmission.
       </span>,
       <span key="2">
-        Designed a scalable event processing pipeline with <strong>deduplication</strong>, <strong>event aggregation</strong>, <strong>MITRE ATT&CK mapping</strong>, and <strong>AI-assisted threat analysis</strong>, reducing duplicate security alerts by over <strong>90%</strong>.
+        Designed a security event processing pipeline for <strong>log parsing</strong>, <strong>normalization</strong>, and <strong>severity classification</strong> to support centralized security monitoring and threat analysis.
       </span>,
       <span key="3">
-        Integrated <strong>Gemini 2.5</strong> to automate event summarization, threat assessment, and remediation recommendations for <strong>SOC analysts</strong>.
+        Integrated <strong>Gemini 2.5</strong> for AI-assisted security event summarization, threat assessment, and remediation recommendations for <strong>SOC analysts</strong>.
       </span>,
       <span key="4">
-        Developed an <strong>Active Directory Identity Intelligence</strong> engine that ingests users, groups, organizational units, devices, and authentication events to provide real-time identity posture and privilege risk analysis.
-      </span>,
+        Developed an <strong>Active Directory Identity Intelligence</strong> ingestion service using <strong>Python</strong> and <strong>LDAP/LDAPS</strong> to synchronize users, groups, organizational units, devices, and group memberships for identity inventory and privileged access risk analysis.
+      </span>,~
     ],
   },
   {

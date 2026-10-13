@@ -15,14 +15,14 @@ export default function AboutSection() {
           <div className="about-stats">
             <div className="stat">
               <span className="stat-number">BIT Sindri</span>
-              <span className="stat-label">Dhanbad (2023 – Ongoing)</span>
+              <span className="stat-label">Dhanbad (2023 – 2027)</span>
             </div>
             <div className="stat">
               <span className="stat-number">B.Tech CSE</span>
               <span className="stat-label">Computer Science & Engineering</span>
             </div>
             <div className="stat">
-              <span className="stat-number">6.88 / 10</span>
+              <span className="stat-number">7.1 / 10</span>
               <span className="stat-label">CGPA</span>
             </div>
           </div>
