@@ -24,7 +24,7 @@ const EXPERIENCE: ExperienceItem[] = [
       </span>,
       <span key="4">
         Developed an <strong>Active Directory Identity Intelligence</strong> ingestion service using <strong>Python</strong> and <strong>LDAP/LDAPS</strong> to synchronize users, groups, organizational units, devices, and group memberships for identity inventory and privileged access risk analysis.
-      </span>,~
+      </span>,
     ],
   },
   {
