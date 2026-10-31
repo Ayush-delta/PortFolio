@@ -14,10 +14,10 @@ const EXPERIENCE: ExperienceItem[] = [
     period: "June 2026 – Present",
     description: [
       <span key="1">
-        Performed <strong>data annotation</strong>, <strong>text classification</strong>, and <strong>labeling tasks</strong> while evaluating AI-generated responses for <strong>accuracy</strong>, <strong>relevance</strong>, <strong>clarity</strong>, and <strong>instruction adherence</strong>.
+        Evaluated AI-generated responses for <strong>accuracy</strong>, <strong>relevance</strong>, and <strong>instruction adherence</strong>, achieving a <strong>95% accuracy rate</strong>.
       </span>,
       <span key="2">
-        Used <strong>OpenCode</strong> to evaluate AI-generated code against tasks from randomly selected GitHub repositories, assessing <strong>code correctness</strong>, <strong>quality</strong>, and alignment with repository requirements.
+        Assessed AI-generated <strong>code correctness</strong> and <strong>quality</strong> across <strong>100+ code reviews</strong> using <strong>OpenCode</strong> against GitHub repository tasks.
       </span>,
     ],
   },
