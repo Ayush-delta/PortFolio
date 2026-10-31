@@ -4,9 +4,10 @@ import React from "react";
 
 export default function MarqueeDivider() {
   const skills = [
-    "React", "Next.js", "TypeScript", "Tailwind CSS", "Framer Motion", 
-    "Node.js", "Express", "REST APIs", "PostgreSQL", "Redis", 
-    "Llama API", "Multi-Agent Systems", "FastAPI", "Python", "AWS", "Docker", "System Design"
+    "React", "Next.js", "TypeScript", "Tailwind CSS", "Streamlit", 
+    "Node.js", "Express", "FastAPI", "Python", "Kafka", 
+    "PostgreSQL", "Redis", "Docker", "CI/CD", "GitHub Actions", "Jenkins", 
+    "Razorpay", "REST APIs", "System Design"
   ];
 
   // Repeat twice for seamless infinite scrolling loop

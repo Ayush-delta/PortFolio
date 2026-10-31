@@ -1,10 +1,11 @@
 const SKILLS = {
   "Languages":        ["JavaScript (ES6+)", "TypeScript", "Python", "SQL", "Bash"],
-  "Frontend":         ["React.js", "Next.js 16", "Tailwind CSS"],
-  "Backend":          ["Node.js", "Express.js", "FastAPI"],
+  "Frontend":         ["React.js", "Next.js 16", "Tailwind CSS", "Streamlit"],
+  "Backend":          ["Node.js", "Express.js", "FastAPI", "Kafka"],
   "Databases":        ["PostgreSQL", "MongoDB", "Redis", "Prisma ORM"],
+  "DevOps & CI/CD":   ["CI/CD", "GitHub Actions", "Jenkins", "Docker", "Git", "Linux"],
   "Security":         ["JWT", "RBAC", "WAF Design", "Rate Limiting", "Cryptography"],
-  "DevOps & Tools":   ["Docker", "Git", "Linux", "Vercel", "Render", "GitHub Actions"],
+  "Payment Gateway":  ["Razorpay"],
   "Testing":          ["Jest", "Supertest", "Postman", "Zod"],
 };
 
